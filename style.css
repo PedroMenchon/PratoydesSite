@@ -40,6 +40,7 @@ header > h1 {
 nav {
     background-color: black;
     text-align: center;
+    transition: 2;
 }
 
 nav > a {
