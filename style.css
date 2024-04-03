@@ -48,6 +48,7 @@ nav > a {
     transition-duration: 0.7s;
     font-size: 20px;
     font-family: "Bebas Neue", sans-serif;
+    color: blueviolet;
 }
 
 nav > a:hover {
