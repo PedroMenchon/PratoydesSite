@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Imbue:opsz,wght@10..100,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Imbue:opsz,wght@10..100,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: rgb(182, 182, 182);
+}
+
+h1, h2 {
+    font-family: "Orbitron", sans-serif;
+}
+
+.tittle {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    padding: 0px;
+    margin: 0px;
+}
+
+header > h1 {
+    padding: 50px;
+    background-image: url(/imagens/csfundo.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+}
+
+nav > a {
+    text-decoration: none;
+    padding: 10px;
+    transition-duration: 0.7s;
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+nav > a:hover {
+    color: rgb(238, 255, 0);
+}
+
+main {
+    background-color: white;
+}
+
+main > #q2 {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+.texto {
+    text-align: justify;
+    background-color: white;
+    font-size: 18px;
+    font-family: "Ibarra Real Nova", serif;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.foto {
+    padding: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    background-image: url(/imagens/mouse.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#cor {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.foto > a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover > li {
+    color: brown;
+    transition-duration: 0.3s;
+}
+
+main > #q3 {
+    text-align: center;
+}
+
+main > #q4 {
+    font-family: "Imbue", serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+main > #q3, #q4 {
+    background-image: url(/imagens/igreja.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+}
