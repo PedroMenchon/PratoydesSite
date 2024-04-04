@@ -57,7 +57,7 @@ nav > a:hover {
 }
 
 main {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 main > #q2 {
@@ -68,11 +68,12 @@ main > #q2 {
 
 .texto {
     text-align: justify;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     font-size: 18px;
-    font-family: "Ibarra Real Nova", serif;
+    font-family: "Orbitron", sans-serif;
     font-weight: bold;
     padding-left: 5px;
+    color: rgb(255, 255, 255);
 }
 
 .foto {
@@ -93,7 +94,7 @@ main > #q2 {
 
 .foto > a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 a:hover > li {
